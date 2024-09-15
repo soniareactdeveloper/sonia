@@ -12,10 +12,6 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 
 
-import project1 from "./assets/images/projects/img1.jpg";
-import project2 from "./assets/images/projects/img2.jpg";
-import project3 from "./assets/images/projects/img3.jpg";
-
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -120,17 +116,17 @@ export const content = {
     project_content: [
       {
         title: "To-Do list",
-        image: project1,
+        image: "https://i.ibb.co.com/0rMvvms/imgOne.jpg",
         liveLink:'https://soniareactdeveloper.github.io/TodoList/'
       },
       {
         title: "Money Transactions",
-        image: project2,
+        image: "https://i.ibb.co.com/92Z49Bg/imgTwo.jpg",
         liveLink:'https://soniareactdeveloper.github.io/Money-Transaction/'
       },
       {
         title: "Creative Website",
-        image: project3,
+        image: "https://i.ibb.co.com/tZ0zcdW/imgThree.jpg",
         liveLink:'https://smart-n-otes.vercel.app/'
       },
     ],
