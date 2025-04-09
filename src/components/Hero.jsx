@@ -3,10 +3,10 @@ import { content } from "../Content";
 
 const Hero = () => {
   const { hero } = content;
-  const [showEmail, setShowEmail] = useState(false); // Manage email visibility
+  const [showEmail, setShowEmail] = useState(false);
 
   const handleButtonClick = () => {
-    setShowEmail(!showEmail); // Toggle email visibility
+    setShowEmail(!showEmail); 
   };
 
   return (
