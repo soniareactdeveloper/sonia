@@ -70,6 +70,7 @@ export const content = {
       },
     ],
   },
+  // skills
   skills: {
     title: "Skills",
     subtitle: "MY TOP SKILLS",
